@@ -10,7 +10,7 @@ test('Can set github through constructor arg', () => {
 // getting
 test('Can get github through getGithub()', () => {
     const testVal = "test@test.com";
-    const a = new Employee("FOO", 1, "test@test.com", testVal);
+    const a = new Engineer("FOO", 1, "test@test.com", testVal);
     expect(a.getGithub()).toBe(testVal);
 })
 
