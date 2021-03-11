@@ -8,15 +8,16 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
-const render = require("./src/render");
-
 // pathing for the output
 const output_dir = path.resolve(__dirname, "output");
-const outputPath = path.join(output_dir, "team.html");
+const outputPath = path.join(output_dir, "yourTeam.html");
+
+const render = require("./src/render");
 
 // sets up our empty parent array to add the specific worker type data into
 const employees = [];
 
+// declares newManager function to create entries that are at management level
 const newManager = () => {
     return new Promise((res, rej) => {
         inquirer.prompt([{
@@ -43,6 +44,7 @@ const newManager = () => {
     })
 }
 
+// declares newEmployee function to create entries that are at employee level
 const newEmployee = () => {
     return new Promise((res, rej) => {
         inquirer.prompt([{
