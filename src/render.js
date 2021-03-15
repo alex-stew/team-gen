@@ -34,10 +34,10 @@ const createCard = team => {
     // Manager output to html
     const cardManager = manager => {
         return `
-        <div class="card card-style">
+        <div class="card col-3">
                 <div class="card-header bg-primary text-light text-center ">
                     <h2 class="card-title">${manager.getName()}</h2>
-                    <i class="fas fa-mug-hot"></i><h4 class="card-title">${manager.getRole()}</h4>
+                    <h4 class="card-title"><i class="fas fa-mug-hot"></i>${manager.getRole()}</h4>
                 </div>
                 <div class="card-body bg-light">
                     <ul class="list-group text-dark">
@@ -53,11 +53,10 @@ const createCard = team => {
     //Engineer output to html
     const cardEngineer = engineer => {
         return `
-        <div class="card card-style">
+        <div class="card col-3">
                 <div class="card-header bg-primary text-light text-center ">
                     <h2 class="card-title">${engineer.getName()}</h2>
-                    <i class="fas fa-glasses"></i>
-                    <h4 class="card-title">${engineer.getRole()}</h4>
+                    <h4 class="card-title"><i class="fas fa-glasses"></i>${engineer.getRole()}</h4>
                 </div>
                 <div class="card-body bg-light">
                     <ul class="list-group text-dark">
@@ -73,11 +72,10 @@ const createCard = team => {
     //Intern output to html
     const cardIntern = intern => {
         return `
-        <div class="card card-style">
+        <div class="card col-3">
                 <div class="card-header bg-primary text-light text-center ">
                     <h2 class="card-title">${intern.getName()}</h2>
-                    <i class="fas fa-user-graduate"></i>
-                    <h4 class="card-title">${intern.getRole()}</h4>
+                    <h4 class="card-title"><i class="fas fa-user-graduate"></i>${intern.getRole()}</h4>
                 </div>
                 <div class="card-body bg-light">
                     <ul class="list-group text-dark">
