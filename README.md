@@ -1,5 +1,7 @@
 # Team Generator
 
+See a demo here! https://youtu.be/X20HRi6q2P4
+
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -31,4 +33,4 @@
       If you have any questions about the Team Generator project, you can follow the link below to navigate to my GitHub page:
   - [GitHub Profile](https://github.com/alex-stew)
 
-For further information on this project, if you'd like to discuss changes or work together - please reach out directly to: .    
+For further information on this project, if you'd like to discuss changes or work together - please reach out through my gitHub :)
