@@ -1,5 +1,7 @@
 # Team Generator
 
+![Screen Shot 2021-03-15 at 12 23 28 pm](https://user-images.githubusercontent.com/69836062/111093608-4e8fe900-8589-11eb-9ee1-3d75b2b7091b.png)
+
 See a demo here! https://youtu.be/X20HRi6q2P4
 
   ## Table of Contents
